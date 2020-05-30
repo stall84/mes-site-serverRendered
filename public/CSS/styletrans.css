@@ -1,0 +1,26 @@
+/* CSS STYLETRANS */
+
+div {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: aqua;
+    transition: width 3s;
+}
+
+div:hover {
+    width: 400px;
+}
+
+#div1 {
+    transition-timing-function: ease-in;
+}
+#div2 {
+    transition-timing-function: ease-out;
+}
+#div3 {
+    transition-timing-function: cubic-bezier(1, 2, 1, -1);
+}
+#div4 {
+    transition-timing-function: linear;
+}
